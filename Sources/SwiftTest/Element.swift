@@ -10,7 +10,7 @@ import XCTest
 @available(iOS 9.0, *)
 public class Element {
 	
-	public static var appIdentifier = ""
+	public static var app: XCUIApplication?
 	 
 	let element: XCUIElement
 	

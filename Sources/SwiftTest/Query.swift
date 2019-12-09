@@ -16,8 +16,7 @@ public final class Query<T> where T: Element {
 	}
 	
 	public init() {
-		let app = XCUIApplication(bundleIdentifier: Element.appIdentifier)
-		self.query = app.windows
+		self.query = Element.app!.windows
 	}
 	
 	// MARK: - Public Interface
