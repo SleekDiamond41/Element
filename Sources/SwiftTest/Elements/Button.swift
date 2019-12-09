@@ -6,6 +6,6 @@
 //
 
 @available(iOS 9.0, *)
-public class Button: Element {
+public class Button: Element, Tappable {
 	
 }
